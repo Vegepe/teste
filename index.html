@@ -7,96 +7,212 @@
 
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="shortcut icon" href="spamtong.ico" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/d3ee2f3d65.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-
     <header>
-    <h1>
-        <span>o resumao das minhas anotacoes do curso que eu parei quase no final por motivos de fOrcA mAiOr</span>
-    </h1>
+        <h1>O resumao das minhas anotacoes do curso que eu parei quase no final por motivos de fOrcA mAiOr</h1>
 
-    <div class="guanabara">
-        <div class="base">GuanabAra rei!!!</div>
+        <div class="guanabara">
+            <div class="base">GuanabAra rei!!!</div>
+            <div class="masked-panel">GuanabAra rei!!!</div>
+            <div id="upper-left" class="masked-panel">GuanabAra rei!!!</div>
+            <div id="bottom-right" class="masked-panel">GuanabAra rei!!!</div>
+            <div class="cracked-panel">GuanabAra rei!!!</div>
+            <img class="apple" src="assets/images/thingamabob/other/apple.webp">
+        </div>
 
-        <div class="masked-panel">GuanabAra rei!!!</div>
-        <div id="upper-left" class="masked-panel">GuanabAra rei!!!</div>
-        <div id="bottom-right" class="masked-panel">GuanabAra rei!!!</div>
+        <img id="hat" src="assets/images/hat.webp">
+        <div class="really-player">
+            <button aria-label="Play" class="play-button"></button>
+            <img aria-hidden="true" class="volume-icon" src="assets/images/volume.png">
+            <input aria-label="Volume" class="volume" max="100" min="0" type="range" value="50">
+            <audio loop="" volume="0.5">
+                <source id="song" src="assets/audio/mus/green_room.mp3" type="audio/mp3">
+            </audio>
+        </div>
+        <p id="player-info">
+            <span class="marker">*</span>
+            <span class="text">
+                Esse player eu não fiz, peguei pronto do blog da <span id="holiday">holidaygirl1225</span>, nem sei como que é o que do que como quando onde.
+            </span>
+        </p>
 
-        <div class="cracked-panel">GuanabAra rei!!!</div>
 
 
-    </div>
     </header>
 
     <section>
-    <h2>* Capítulo 1</h2>
+        <h2>* Capítulo 1</h2>
 
-    <h3>Aula 1</h3>
-    <ul>
-        <li>
-        <a href="https://github.com/gustavoguanabara" class="list-link">github.com/gustavoguanabara</a>
-        </li>
-        <li>
-        <a href="https://gustavoguanabara.github.io" class="list-link">gustavoguanabara.github.io</a>
-        </li>
-    </ul>
+        <h3>Aula 1</h3>
+        <ul>
+            <li>
+                <i class="fa-brands fa-github"></i>
+                <a href="https://github.com/gustavoguanabara" class="list-link"></i>github.com/gustavoguanabara</a>
+            </li>
+            <li>
+                <i class="fa-brands fa-github"></i>
+                <a href="https://gustavoguanabara.github.io" class="list-link"></i>gustavoguanabara.github.io</a>
+            </li>
+        </ul>
 
-    <h3>Aula 3</h3>
-    <h4>Bibliografia</h4>
-    <p>W3C Standards &rarr; oficial</p>
-    <p>W3Schools</p>
+        <h3>Aula 3</h3>
+        <h4>Bibliografia</h4>
+        <p>W3C Standards &rarr; oficial</p>
+        <p>W3Schools</p>
 
-    <h3>Aula 4</h3>
-    <h4>Como a net atravessa minha parede</h4>
-    <p>USSR lançou o Sputnik</p>
-    <p>Arpanet criada pra ser um "backup" entre os centros na guerra</p>
-    <p>
-        <strong>Protocolos são idiomas únicos, universais, que todo mundo consegue falar.</strong>
-        NCP foi o primeiro.
-    </p>
-    <p>IP &rarr; Internetwork Protocol</p>
-    <p>TCP/IP &rarr; Usado até hoje, criado por Bob Khan e Vint Cerf.</p>
+        <h3>Aula 4</h3>
+        <h4>Como a net atravessa minha parede</h4>
+        <p>USSR lançou o Sputnik</p>
+        <p>Arpanet criada pra ser um "backup" entre os centros na guerra</p>
+        <p>
+            <strong>Protocolos são idiomas únicos, universais, que todo mundo consegue falar.</strong>
+            NCP foi o primeiro.
+        </p>
+        <p>IP &rarr; Internetwork Protocol</p>
+        <p>TCP/IP &rarr; Usado até hoje, criado por Bob Khan e Vint Cerf.</p>
 
-    <p>Arpanet se separou em 3 redes:</p>
-    <ul>
-        <li>Milnet &rarr; Militar</li>
-        <li>Nsfnet &rarr; Universidades</li>
-        <li>Muitas redes comerciais</li>
-    </ul>
+        <p>Arpanet se separou em 3 redes:</p>
+        <ul>
+            <li>Milnet &rarr; Militar</li>
+            <li>Nsfnet &rarr; Universidades</li>
+            <li>Muitas redes comerciais</li>
+        </ul>
 
-    <aside>Obs: nsf = National Science Foundation</aside>
+        <div class="obs">
+            <img class="box" src="assets/images/box.webp" alt="Box">
+            <aside>* NSF = National Science Foundation</aside>
+        </div>
 
-    <p>
-        Queriam todos se comunicarem-ser-lhe-eis, daí veio o <strong>Internet</strong>working
-    </p>
+        <p>
+            Queriam todos se comunicarem-ser-lhe-eis, daí veio o <strong>Internet</strong>working
+        </p>
 
-    <a href="https://www.submarinecablemap.com/">
-        https://www.submarinecablemap.com/ &rarr; Mapa dos fios subterrâneos de fibra ótica.
-    </a>
+        <a href="https://www.submarinecablemap.com/">
+            https://www.submarinecablemap.com/ &rarr; Mapa dos fios subterrâneos de fibra ótica.
+        </a>
 
-    <p>
-        IP &rarr; Identifica os pontos de envio e recebimento de dados, como se fosse o endereço de uma casa.
-    </p>
-    <p>
-        TCP &rarr; Quebra a "mensagem" em vários pedaços e envia por várias rotas, tudo desorganizado, depois o
-        <em>meu</em> TCP junta tudo de novo.
-    </p>
+        <p>
+            IP &rarr; Identifica os pontos de envio e recebimento de dados, como se fosse o endereço de uma casa.
+        </p>
+        <p>
+            TCP &rarr; Quebra a "mensagem" em vários pedaços e envia por várias rotas, tudo desorganizado, depois o
+            <em>meu</em> TCP junta tudo de novo.
+        </p>
 
-    <aside>Obs: as imagens carregando são os pacotes chegando.</aside>
+        <div class="obs">
+            <img class="box" src="assets/images/box.webp" alt="Box">
+            <aside>* As imagens carregando são os pacotes chegando</aside>
+        </div>
 
-    <p>Protocolo http:// &rarr; Hypertext Transfer Protocol</p>
-    <p>HTML = Hypertext Markup Language</p>
-    <p>WWW = World Wide Web</p>
+        <p>Protocolo http:// &rarr; Hypertext Transfer Protocol</p>
+        <p>HTML = Hypertext Markup Language</p>
+        <p>WWW = World Wide Web</p>
 
-    <aside>Obs: HTTP é uma subrede da internet</aside>
+        <div class="obs">
+            <img class="box" src="assets/images/box.webp" alt="Box">
+            <aside>* HTTP é uma subrede da internet</aside>
+        </div>
     </section>
 
     <section>
-    <h2>Capítulo 2</h2>
-    <!-- Aqui você pode continuar com novas aulas -->
+        <h2>* Capítulo 2</h2>
+
+        <h3>Aula 1 - Como funciona a internet</h3>
+        <p>O computador funciona com sinais binários</p>
+        <p>Bit &rarr; dígito binário</p>
+        <p>1 byte &rarr; 8 bits &rarr; <strong>o mínimo pra representar uma informação</strong></p>
+        <p>Código multibyte UTF-8 &rarr; tabela (usa de 1 a 4 bytes pra representar símbolos)
+        </p>
+        <p>Computador entende ondas quadradas</p>
+        <p>MB (armazenamento) &ne; Mb (transmissão)</p>
+        <ol>
+            <li>Meu pc &rarr; cliente</li>
+            <li>Modem &rarr; faz modulação e demodulação</li>
+            <li>Internet</li>
+            <li>As coisa tão em servidores</li>
+        </ol>
+        <p>DNS &rarr; Domain Name System: servidores especiais que eu posso <strong>questionar.</strong></p>
+        <img src="assets/images/howitworks.jpeg" class="graphics">
+
+        <h3>Aula 2 - Domínio e hospedagem</h3>
+        <ul>
+            <li>Situação 1: HTML e CSS no servidor;</li>
+            <li>Situação 2: Guardado no meu pc;</li>
+            <li>Situação 3: Guardado em outro pc;</li>
+        </ul><br>
+
+        <p>URL:</p>
+        <ul>
+            <li>é a ponte;</li>
+            <li>precisa de um domínio &rarr; identifica o site;</li>
+            <li>é hospedado por um servidor &rarr; onde o URL fica armazenado.</li>
+        </ul>
+        <p>Domínio:</p>
+        <ul>
+            <li>é um nome único;</li>
+            <li>é pago anualmente;</li>
+            <li>tem vários TLDS (Top Level Domain [.com]).</li>
+        </ul>
+        <p>Hospedagem:</p>
+        <ul>
+            <li>é o espaço para armazenar arquivos</li>
+            <li>é paga mensalmente</li>
+            <li>lida com espaço, memória e recursos.</li>
+        </ul><br>
+
+        <ul>
+            <li>Uniform Resource Locator (URL) &rarr; <strong id="everything">TUDO;</strong></li>
+            <li>Generic TLD: instituições (.gov);</li>
+            <li>Country Code TLD: código de país (.br).</li>
+        </ul>
+
+        <div class="center">
+            <p id="url">
+                <span id="sub-domain">gustavoguanabara.</span>
+                <span id="domain">github.<span id="gtld">io</span></span>
+            </p>
+        </div>
+        <p><span class="color darker-blue">&#9632;</span> URL</p>
+        <p><span class="color blue">&#9632;</span> Sub-domínio</p>
+        <p><span class="color purple">&#9632;</span> Domínio</p>
+        <p><span class="color green">&#9632;</span> GTLD</p>
+
     </section>
 
-    <script src="scripts/script.js"></script>
+    <section>
+        <h2>* Capítulo 3</h2>
+
+        <h3>Aula 1 - Diferença entre HTML, CSS e JavaScript</h3>
+        <ul>
+            <li><strong>HTML</strong> &rarr; Hypertext Markup Language &rarr; <strong>Focada em conteúdo!!!</strong> (textos, imagens, vídeos, tabelas);</li>
+            <li><strong>CSS</strong> &rarr; Cascading Style Sheets &rarr; <strong>Focada em design!!!</strong> (cores, sombras, tamanho, posicionamento);</li>
+            <li><strong>JS</strong> &rarr; JavaScript &rarr; <strong>Trabalha com interatividade!!!</strong> (menus, animações, popups, validações).</li>
+        </ul><br>
+
+        <p>HTML usa tags (marcações):</p>
+        <p>ex: <strong>&lt;barbecue&gt;</strong>BOMDIA<strong>&lt;/barbecue&gt;</strong></p><br>
+
+        <p>CSS usa <span class="blue">seletores</span> contendo <span class="purple">declarações</span> com <span class="green">propriedades</span> e seus <span class="yellow">valores:</span></p>
+    <pre>ex:<code> <span class="blue">h1</span> {
+        <span class="purple-background"><span class="green">font-family:</span> <span class="yellow">arial;</span></span>
+    }</code></pre>
+
+
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script type="module" src="scripts/global.js"></script>
+    <script type="module" src="scripts/guanabara.js"></script>
+    <script type="module" src="scripts/aside-tenna.js"></script>
+    <script type="module" src="scripts/themes.js"></script>
+
+    <script src="scripts/header/player.js"></script>
+    
+
+    <script type="module" src="scripts/main.js"></script>
 </body>
 </html>
